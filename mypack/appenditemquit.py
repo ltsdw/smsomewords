@@ -21,7 +21,6 @@ def checksames(item):
                 return False
     except:
         createWriteFile(item)
-        checksames(item)
 
 def appendItemQuit(lista = [""]):
     try:
