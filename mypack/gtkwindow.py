@@ -6,8 +6,6 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 from gi.repository import Gdk
 
-import sys
-
 from .appenditemquit import appendItemQuit
 
 class Window(Gtk.ApplicationWindow):
