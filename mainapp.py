@@ -1,9 +1,9 @@
 #! /bin/python
 
-from mypack.tkwindow import *
+from mypack.gtkwindow import *
+import sys
 
 if __name__ == '__main__':
-    root = Tk(className='listador')
-    Application(root)
-    root.mainloop()
-
+    app = Application()
+    exit_status = app.run(sys.argv)
+    sys.exit(exit_status)
