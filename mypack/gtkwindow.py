@@ -35,7 +35,7 @@ class Window(Gtk.ApplicationWindow):
         self.add(self.grid)
 
     def callAppendItemQuit(self, entry_box):
-        self.lista = self.entry_box.get_text().split(" ")
+        self.lista = self.entry_box.get_text().split(' ')
         appendItemQuit(self.lista)
 
 class Application(Gtk.Application):
